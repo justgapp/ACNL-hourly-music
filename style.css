@@ -53,13 +53,13 @@ audio{
   font-size: 2rem;
   text-align:center;
 }
-#title{
+#title, #hour{
   color: rgb(182, 136, 12);
   /*background-color:rgba(151,91,34,0.95);*/
   width: 200px;
   margin: 0 auto;
 }
-#lechan{
+#truc{
   background-color:rgba(240, 240, 240, 0.9);
   width: 500px;
   margin: 0 auto;
@@ -67,4 +67,17 @@ audio{
   padding: 1rem;
   border-radius: 50px;
   border-style: solid;
+}
+
+#tns1-ow > button{
+  display: none
+}
+#tns1-mw{
+  padding: 20px 0;
+}
+.tns-complete{
+  border-radius: 20px;
+  transform:rotate(10deg);
+  box-shadow: 0px 0px 5px 0px black;
+  border: 10px solid rgba(178, 247, 251, 0.3);
 }
