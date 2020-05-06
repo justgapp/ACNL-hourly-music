@@ -1,0 +1,70 @@
+body{
+    background-image: url('images/acnl.png');
+    width:90%;
+    margin: 0 auto;
+    background-color: #2BB22B;
+}
+h1{
+    color: #FCD240;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+    background-color:rgba(151,91,34,0.95);
+    font-family: 'Zilla', serif;
+    box-shadow: 0 0 5px 0 black;
+}
+.row{
+  display:flex;
+  justify-content: space-between
+}
+.input {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:rgba(240, 240, 240, 0.9);
+  box-shadow:0 0 5px 0 rgba(0,0,0,0.7);
+}
+
+.input >label{
+margin-right: 1rem
+}
+
+audio{
+  background-color:rgba(240, 240, 240, 0.9);
+  box-shadow:0 0 5px 0 rgba(0,0,0,0.7);
+  border-radius: 50px;
+  outline: rgb(151,91,34)
+}
+
+#lecteur{
+  font-size:2rem;
+  text-align: center;
+}
+
+#copyright{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#chanson p{
+  font-size: 2rem;
+  text-align:center;
+}
+#title{
+  color: rgb(182, 136, 12);
+  /*background-color:rgba(151,91,34,0.95);*/
+  width: 200px;
+  margin: 0 auto;
+}
+#lechan{
+  background-color:rgba(240, 240, 240, 0.9);
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 50px;
+  border-style: solid;
+}

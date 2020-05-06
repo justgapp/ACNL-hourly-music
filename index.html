@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACNL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    
+</head>
+<body>
+    <h1>Hourly Music Animal Crossing New Leaf</h1>
+    <div class="row">
+        <div class="input">
+            <label for="heure">Quelle heure est-il ?</label>
+            <input type="number" id="heure" min="0" placeholder="nombre entre 0 et 23">
+            <button id="confh">confirmer</button>
+        </div>
+        <div class="input">
+            <label for="meteo">Quel temps fait-il ?</label>
+            <select name="meteo" id="meteo">
+                <option>soleil</option>
+                <option>pluie</option>
+                <option>neige</option>
+        </select>
+        <button id="confm">confirmer</button>
+        </div>
+    </div>
+    <div id='lechan'>
+        <div id="lecteur">  
+                <p>Lecteur :</p>
+                <audio
+                    id="audio"
+                    controls
+                    loop
+                    src=''>
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+        </div>
+        <div id="chanson">
+            <p>en train de jouer :</p>
+            <p id="title"></p>
+        </div>
+    </div>
+
+    <div class="my-slider">
+        <div><img src="./images/photo1.jpg"/></div>
+        <div><img src="./images/photo2.jpg"/></div>
+        <div><img src="./images/photo3.jpg"/></div>
+      </div>
+    
+    <footer id="copyright">&copy; Léo Malloire 2020</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
